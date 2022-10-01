@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+.body{
+    color: #333;
+    font-size: 90%;
+    text-align: left;
+    background-image: url(../img/sfondotrentino.jpg);
+    background-repeat: repeat;
+    width: 80%;
+    margin: 0 auto; /*con il comando margin posso definire solo due margini, ovvero: il primo, che comprende il superiore e l'inferiore; e il secondo, che comprende quelli laterali*/
+}
+
+a{
+    color: #333;
+    text-decoration: none;
+}
+
+
+a:hover{
+    /*"class:hover" serve a cambiare comportamento quando ci passa sopra il mouse*/
+    color: blue;
+}
+
+.mainheader img{
+    /*"class img" modifica solo le immagini che hanno quella classe*/
+    width: 30%;
+    height: auto;
+    margin: 2% 0;
+}
+
+.mainheader nav{
+    background-color: white;
+    height: 37px;
+    border-radius: 5px;
+    -noz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    /*"-noz-comando" e "-webkit-comando" serve ad adattare delle modifiche a tutti i siti*/
+}
+
+.mainheader nav ul{
+    list-style: none;
+    margin: 0 auto;
+}
+
+.mainheader nav ul li{
+    float: left;
+}
+
+.mainheader nav a:link{
+    color: black;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+.mainheader nav a:hover{
+    color: white;
+    background-color: #333;
+}
+
+.maincontent{
+    width: 64%;
+    background-color: white;
+    border-radius: 5px;
+    -noz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    float: left;
+    margin-top: 2%;
+    margin-right: 2%;
+    padding: 2%;
+}
+
+.sidebar{
+    width: 26%;
+    background-color: white;
+    border-radius: 5px;
+    -noz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    float: left;
+    margin-top: 2%;
+    padding: 2%;
+}
+
+.mainfooter{
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    -noz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    float: left;
+    text-align: center;
+    margin-top: 2%;
+}
