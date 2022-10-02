@@ -97,14 +97,35 @@ a:hover{
     .body{
         font-size: 95%;
     }
+    
     .mainheader img{
         width: 100%;
     }
+    
     .mainheader nav{
-    background-color: white;
-    height: 37px;
-    border-radius: 5px;
-    -noz-border-radius: 5px;
-    -webkit-border-radius: 5px;
+    height: 148px;
+    }
+    
+    .mainheader nav ul{
+        padding-left: 0px;
+    }
+    
+    .mainheader nav ul li{
+        float: left;
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .mainheader nav a:link{
+        display: block;
+    }
+    
+    .maincontent{
+        width: 96%;
+    }
+    
+    .sidebar{
+        width: 96%;
     }
 }
