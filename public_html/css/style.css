@@ -92,6 +92,7 @@ a:hover{
 }
 
 @media only screen and (min-width: 150px) and (max-width: 600px)
+/*questo serve per modificare la grandezza delle classi quando la grandezza della scheda raggiunge la minima grandezza*/
 
 {
     .body{
